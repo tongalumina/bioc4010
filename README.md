@@ -11,8 +11,11 @@ The content shall be used in companion with the slides file provided to the
 students.
 
 To download the files, start the Ubuntu terminal in the VM, and run the
-following command:
+following commands:
 
 ```
-git clone https://www.github.com/tongalumina/bioc4010.git 
+git clone https://www.github.com/tongalumina/bioc4010.git
+cd bioc4010
+chmod u+x setup.sh
+./setup.sh
 ```
