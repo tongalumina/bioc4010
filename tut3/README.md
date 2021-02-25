@@ -9,7 +9,7 @@ Search in [RCSB PDB website](https://www.rcsb.org/) for "lopinavir" and "ritonav
 
 ## Sequence comparison and BLASTP
 
-### Compare pairwase sequence alignment
+### Compare pairwise sequence alignment
 Observe the difference in the output of the following three methods:
 ```
 #needleman alignment
@@ -33,12 +33,17 @@ blastp -query ab1-targets.fa -subject ab1-targets.fa -outfmt 6
 blastp -query 4l1a.fa -subject rit-target.fa -outfmt 6
 ```
 ## CLUSTALX
-The documentation of clustalx program can be found  on [unl.edu]() website.
+The documentation of the `clustalx` program can be found  on
+[unl.edu](http://bioinfolab.unl.edu/emlab/documents/clustalx_doc/clustalx.html)
+website.
 Invoke the program in Ubuntu Terminal using `clustalx`.
 
+The following is a simple procedure to generate an alignment and a phylogenetic tree using N-J clustering.
 1. `File` → `Load sequence`, load `nosplitusp.fa` file.
 2. `Alignment` → `Do a complete alignment` will generate a guide tree (a `.dnd` file ) and an alignment file (`.aln`).
 3. `Trees` → `Draw Tree` will use N-J method to generate a unrooted tree.
 
-The guide tree and N-J tree files are in Newick format. 
+The guide tree and N-J tree files are in Newick format. They can be viewed
+using any online Newick Tree Viewer, e.g. the [Uqam Tree
+Viewer](http://trex.uqam.ca/index.php?action=newick)
 
