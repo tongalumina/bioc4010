@@ -5,5 +5,7 @@
 
 sed -i -e "s/xterm-color/xterm-256color/" ~/.bashrc
 echo "alias grep='grep -E --color=auto'" >> ~/.bashrc
+# fix for clustalx not launch problem
+strip --remove-section=.note.ABI-tag /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
 conda config --set changeps1 false
 sudo apt-get --assume-yes install tree

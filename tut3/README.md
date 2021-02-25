@@ -1,4 +1,6 @@
 # Tutorial 3: Sequence Alignment and Advanced BLAST
+Make sure you run the `setup.sh` file under `~/bioc4010` folder to fix a bug.
+The following instructions assume you are in the `~/bioc4010/tut3` folder.
 
 ## PDB Search
 Search in [RCSB PDB website](https://www.rcsb.org/) for "lopinavir" and "ritonavir", and find out:
@@ -30,3 +32,5 @@ blastp -query ab1-targets.fa -subject ab1-targets.fa -outfmt 6
 ```
 blastp -query 4l1a.fa -subject rit-target.fa -outfmt 6
 ```
+## CLUSTALX
+cla
