@@ -35,8 +35,11 @@ blastp -query ab1-targets.fa -subject ab1-targets.fa -outfmt 6
 ```
 blastp -query 4l1a.fa -subject rit-target.fa -outfmt 6
 ```
-## CLUSTALX
-The documentation of the `clustalx` program can be found  on
+
+## CLUSTALX and MSA
+Ensure your have the X-server launched as you have done in tutorial-2 before you can launch `clustalx`.
+
+The documentation of the `clustalx` program can be found at
 [unl.edu](http://bioinfolab.unl.edu/emlab/documents/clustalx_doc/clustalx.html)
 website.
 Invoke the program in Ubuntu Terminal using `clustalx`.
