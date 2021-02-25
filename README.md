@@ -7,8 +7,8 @@ the VM, all the changes you made are lost and you'll have to set them up again.
 Files are organized according to the tutorial session, each folder has a
 `README.md` file.
 
-The content shall be used in companion with the slides file provided to the
-students.
+The content shall be used in companion with the slides file and the assignment
+provided to the students.
 
 To download the files, start the Ubuntu terminal in the VM, and run the
 following commands:
@@ -26,3 +26,7 @@ then run the following commands in Ubuntu terminal to update the data:
 cd ~/bioc4010
 git pull
 ```
+
+If you have made changes to downloaded files, and have trouble pulling updates
+from github. Run `git stash` to put away these changes so you can pull the
+updates.
