@@ -19,3 +19,10 @@ cd bioc4010
 chmod u+x setup.sh
 ./setup.sh
 ```
+
+If you have used the above command already in a previous session, and hasn't log out the VM,
+then run the following commands in Ubuntu terminal to update the data:
+```
+cd ~/bioc4010
+git pull
+```

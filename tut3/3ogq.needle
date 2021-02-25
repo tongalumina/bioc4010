@@ -1,0 +1,43 @@
+########################################
+# Program: needle
+# Rundate: Thu 25 Feb 2021 00:06:38
+# Commandline: needle
+#    -asequence 3ogq.fa
+#    -bsequence 4l1a.fa
+# Align_format: srspair
+# Report_file: 3ogq.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 3OGQ
+# 2: 4L1A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 119
+# Identity:      35/119 (29.4%)
+# Similarity:    51/119 (42.9%)
+# Gaps:          23/119 (19.3%)
+# Score: 81.5
+# 
+#
+#=======================================
+
+3OGQ               1 YNKVGTTTTLEKRPEILIFVNGYPIKFLLDTGADITVLNRRDFQVKNSIE     50
+                          ...||.:||.:.|.:.|...:.||:||||.|||...:..      
+4L1A               1 -----PQITLWQRPIVTIKIGGQLKEALLNTGADDTVLEEVNLP------     39
+
+3OGQ              51 NGR---QMMIGIGGGKRGTNYINVHLEIRDENYKTQCIFGNVCVLEDNSL     97
+                      ||   :::.||||..:...|..|.:||.  .:||   .|.|.|   ...
+4L1A              40 -GRWKPKLIGGIGGFVKVRQYDQVPIEIC--GHKT---IGTVLV---GPT     80
+
+3OGQ              98 SVNLLGRDNMIKFNIRLVM    116
+                     ..|::||:.|.:....|..
+4L1A              81 PTNVIGRNLMTQIGCTLNF     99
+
+
+#---------------------------------------
+#---------------------------------------
