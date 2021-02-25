@@ -1,6 +1,9 @@
 # Tutorial 3: Sequence Alignment and Advanced BLAST
 Make sure you run the `setup.sh` file under `~/bioc4010` folder to fix a bug.
-The following instructions assume you are in the `~/bioc4010/tut3` folder.
+The following instructions assume you are in the `~/bioc4010/tut3` folder.  The
+`setup.sh` script also create a symbolic link under `tut3` folder to the
+Windows `Downloads` folder. You can copy the output results from the programs
+to the `Downloads` folder so that you can upload to websites.
 
 ## PDB Search
 Search in [RCSB PDB website](https://www.rcsb.org/) for "lopinavir" and "ritonavir", and find out:
