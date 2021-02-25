@@ -33,4 +33,12 @@ blastp -query ab1-targets.fa -subject ab1-targets.fa -outfmt 6
 blastp -query 4l1a.fa -subject rit-target.fa -outfmt 6
 ```
 ## CLUSTALX
-cla
+The documentation of clustalx program can be found  on [unl.edu]() website.
+Invoke the program in Ubuntu Terminal using `clustalx`.
+
+1. `File` → `Load sequence`, load `nosplitusp.fa` file.
+2. `Alignment` → `Do a complete alignment` will generate a guide tree (a `.dnd` file ) and an alignment file (`.aln`).
+3. `Trees` → `Draw Tree` will use N-J method to generate a unrooted tree.
+
+The guide tree and N-J tree files are in Newick format. 
+
