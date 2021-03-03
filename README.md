@@ -13,11 +13,12 @@ The content shall be used in companion with the slides file and the assignment
 provided to the students.
 
 To download the files, start the Ubuntu terminal in the VM, and run the
-following commands:
+following commands that does not start with hash #:
 
 ```
 git clone https://github.com/tongalumina/bioc4010.git
 cd bioc4010
+# this following does not seem to be neccessary
 # chmod u+x setup.sh
 ./setup.sh
 ```
@@ -29,7 +30,7 @@ in case there are new bug fixes.
 ```
 cd ~/bioc4010
 git pull
-chmod u+x setup.sh
+# chmod u+x setup.sh
 ./setup.sh
 ```
 
