@@ -1,4 +1,5 @@
 ﻿# Tutorial 4
+[TOC]
 
 ## Resources
 
@@ -22,17 +23,15 @@
   * [DisEMBL, NN trained on XRD data](http://dis.embl.de)
   * [SPOT-Disorder2, deep NN-based](https://sparks-lab.org/server/spot-disorder2/)
 
-
-### 3D Structure Prediction
+### 3D Structure Prediction: Homology modelling and Threading
 - [Threading](http://bioinf.cs.ucl.ac.uk/psipred/) pDOMThreader 
   * The link also includes Structural Modelling using `Domserf`, `DMPfold`, `BioSerf`
-- [RaptorX](http://raptorx.uchicago.edu/): automatic handles long sequences
-
+- [RaptorX](http://raptorx.uchicago.edu/): automatic, handles long sequences
+- [SWISS-Model](https://swissmodel.expasy.org/)
 
 ### AlphaFold
-[AlphaFold v.1 from DeepMind](https://github.com/deepmind/deepmind-research/tree/master/alphafold_casp13)
-[Alpha Fold v.2](https://github.com/lucidrains/alphafold2)
-
+- [Alpha Fold v.1 source code from DeepMind](https://github.com/deepmind/deepmind-research/tree/master/alphafold_casp13)
+- [Alpha Fold v.2 Democratization Project](https://github.com/lucidrains/alphafold2)
 
 ## Practices
 
@@ -47,3 +46,10 @@ Calculation of secondary structure using `dssp`.
    `tut4` named `getpdb.sh`, e.g. `getpdb.sh 2r2o` will download strucuture
    cooridnate and FASTA format file from [RCSB](https://www.rcsb.org/structure/2r2o).
 
+### PyMOl
+- Launch of the program:
+  * search `PyMOL` in the Search Box, and choose/click on _Run command_  to
+    invoke the program.
+  * Keep in mind this is a native Windows program, not an app on the Ubuntu
+    subsystem.
+- further instructions to be updated.
