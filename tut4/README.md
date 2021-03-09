@@ -17,21 +17,33 @@
   - [Predictprotein](https://predictprotein.org/)
 
 
-### Disordered
+### Disordered Prediction
 - Servers
   * [GlobPlot, Statistics-based](http://globplot.embl.de/)
   * [DisEMBL, NN trained on XRD data](http://dis.embl.de)
   * [SPOT-Disorder2, deep NN-based](https://sparks-lab.org/server/spot-disorder2/)
 
 ### 3D Structure Prediction: Homology modelling and Threading
-- [Threading](http://bioinf.cs.ucl.ac.uk/psipred/) pDOMThreader 
+- [Threading](http://bioinf.cs.ucl.ac.uk/psipred/) pDOMThreader
   * The link also includes Structural Modelling using `Domserf`, `DMPfold`, `BioSerf`
 - [RaptorX](http://raptorx.uchicago.edu/): automatic, handles long sequences
-- [SWISS-Model](https://swissmodel.expasy.org/)
+- [SWISS-Model](https://swissmodel.expasy.org/) building homology model
+- [Rossetta Foldit](https://www.rosettacommons.org/docs/latest/FoldIt)
+
 
 ### AlphaFold
 - [Alpha Fold v.1 source code from DeepMind](https://github.com/deepmind/deepmind-research/tree/master/alphafold_casp13)
 - [Alpha Fold v.2 Democratization Project](https://github.com/lucidrains/alphafold2)
+
+### Structure alignment
+- [Dali Server](http://ekhidna2.biocenter.helsinki.fi/dali/)
+- [FATCAT](https://fatcat.godziklab.org/)
+- [PDBeFold](https://www.ebi.ac.uk/msd-srv/ssm/)
+
+### PDB related
+- [PDB Format description](http://www.wwpdb.org/documentation/file-format-content/format33/v3.3.html)
+- [Modelling and visualization softwares](https://proteopedia.org/wiki/index.php/Molecular_modeling_and_visualization_software)
+- [PDB Molecular Graphics Programs](http://pdb101.rcsb.org/learn/guide-to-understanding-pdb-data/molecular-graphics-programs)
 
 ## Practices
 
@@ -47,6 +59,7 @@ Calculation of secondary structure using `dssp`.
    cooridnate and FASTA format file from [RCSB](https://www.rcsb.org/structure/2r2o).
 
 ### PyMOl
+- You can get an educational version from [PyMOL.org](https://PyMOL.org/edu/?q=educational/)
 - Launch of the program:
   * search `PyMOL` in the Search Box, and choose/click on _Run command_  to
     invoke the program.
