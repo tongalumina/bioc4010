@@ -66,3 +66,10 @@ Calculation of secondary structure using `dssp`.
   * Keep in mind this is a native Windows program, not an app on the Ubuntu
     subsystem.
 - further instructions to be updated.
+- Save output:
+  * in the PyMOL `File` → `Export Image As ...` menu items save the image as
+    PNG, in the pop-up dialog, save the file to a folder different from the
+    default, which is `C:\Windows\System32`. You can choose `This PC` →
+    `Downloads` and e-mail it or save it to the `Z:\` drive, which is supposed
+    to be your host computer if you are using the `VMWare Client` software to
+    connect to the VM.
