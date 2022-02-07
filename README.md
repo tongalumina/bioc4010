@@ -1,4 +1,14 @@
 # BIOC-4010 Resources
+
+## Update in 2022W
+Due to an unforseen change in the infrastructure at ITS, the PyMOL in the
+Windows 10 VM no longer works. Much time was spent trouble shooting in vain. To
+work around the technical issue, we are switching to a Linux Mint VM at the
+Science Resource Centre in the Essex Hall.
+
+New scripts are added to adapt to the new VM. Old scripts are kept for now.
+
+## Information for 2021W class
 This repository includes codes and files for the dry lab sessions of BIOC-4010,
 2021W semester at the University of Windsor, Canada. These codes are tailored
 for a Windows 10 Virtual Machine (VM). Keep in mind that once you reboot the
@@ -40,3 +50,6 @@ pull the updates.
 ```
 git stash
 ```
+
+
+
