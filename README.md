@@ -4,9 +4,25 @@
 Due to an unforseen change in the infrastructure at ITS, the PyMOL in the
 Windows 10 VM no longer works. Much time was spent trouble shooting in vain. To
 work around the technical issue, we are switching to a Linux Mint VM at the
-Science Resource Centre in the Essex Hall.
+Science Resource Centre in the Essex Hall (EH 182).
 
 New scripts are added to adapt to the new VM. Old scripts are kept for now.
+
+The github `bioc4010` repository has been cloned, after you login the Linux
+VM, type
+```
+cd bioc4010
+git pull
+```
+to enter the directory to see the files and pull changes made to the
+repository.
+
+If you have made changes to downloaded files, and have trouble pulling updates
+from github. Run the following command to put away these changes before you
+pull for the updates.
+```
+git stash
+```
 
 ## Information for 2021W class
 This repository includes codes and files for the dry lab sessions of BIOC-4010,
@@ -43,13 +59,3 @@ git pull
 # chmod u+x setup.sh
 ./setup.sh
 ```
-
-If you have made changes to downloaded files, and have trouble pulling updates
-from github. Run the following command to put away these changes before you
-pull the updates.
-```
-git stash
-```
-
-
-
