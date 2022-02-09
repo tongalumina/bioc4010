@@ -1,30 +1,51 @@
 # BIOC-4010 Resources
+This repository includes codes and files for the dry lab sessions of BIOC-4010
+at the University of Windsor. It has been in use since 2021W semester. Due to
+changes in the system used for the dry lab, please refer to the specific
+semester for instructions and omit the irrelevant semesters.
 
 ## Update in 2022W
 Due to an unforseen change in the infrastructure at ITS, the PyMOL in the
 Windows 10 VM no longer works. Much time was spent trouble shooting in vain. To
 work around the technical issue, we are switching to a Linux Mint VM at the
-Science Resource Centre in the Essex Hall (EH 182).
+Science Resource Centre in the Essex Hall (EH 182-1).
+
 
 New scripts are added to adapt to the new VM. Old scripts are kept for now.
 
-The github `bioc4010` repository has been cloned, after you login the Linux
-VM, type
+To login the VM,
+- First login the Windows computer using your UWindsor email address and
+  password.
+- Then select the `4010Lab` icon on the desktop, and double click to launch
+  the virtual machine.
+
+![screenshot](./screen.png)
+
+  - You should be automatically logged into the Linux system under `science` account.
+
+The github `bioc4010` repository has been cloned into the VM already, so after
+you login the Linux VM, start a terminal and type
 ```
 cd bioc4010
 git pull
 ```
 to enter the directory to see the files and pull changes made to the
-repository.
+repository. This will include all the changes made to the sub-directories.
 
 If you have made changes to downloaded files, and have trouble pulling updates
 from github. Run the following command to put away these changes before you
 pull for the updates.
+
 ```
 git stash
+git pull
 ```
 
-## Information for 2021W class
+After you login the Linux VM and made the above updates, enter the directories
+corresponding to individual tutorial and follow the README.md file in each
+directory.
+
+## Information for 2021W class (obsolete)
 This repository includes codes and files for the dry lab sessions of BIOC-4010,
 2021W semester at the University of Windsor, Canada. These codes are tailored
 for a Windows 10 Virtual Machine (VM). Keep in mind that once you reboot the
