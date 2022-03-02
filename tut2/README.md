@@ -6,7 +6,7 @@
    https://github.com/tongalumina/bioc4010 to download the resources.
 2. Launch Linux Mint, launch a new terminal, enter the course folder `cd
    ~/bioc4010`, and update content by running `git pull`
-6. Change to _`tut2`_ folder by running `cd tut2` to carry out the tasks of this session.
+3. Change to _`tut2`_ folder by running `cd tut2` to carry out the tasks of this session.
 
 ## Learning Objectives
 1. Practice search in several popular databases and servers
@@ -22,7 +22,7 @@
    sequence, try Hphob. /Kyte & Doolittle.
   * [ProtScale](https://web.expasy.org/protscale/)
 
-1. Practise the use of `dotter` program on Linux:
+3. Practise the use of `dotter` program on Linux:
   * Compare the sequences of `f12.fa` and `tpa.fa`, what do you observe?
     * change the default scoring matrix to BLOSUM30 and BLOSUM80, what do you
       observe? *Hint:* use `dotter -h` to find out how to specify different
@@ -36,12 +36,10 @@
 
 ## Links
 - [Scoring matrices at NIH FTP site](https://ftp.ncbi.nlm.nih.gov/blast/matrices/)
-- [human ACE2 protein](https://www.uniprot.org/uniprot/Q9BYF1.fasta)
-- [SARS-CoV-2 Wuhan-Hu-1 complete genome](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2)
 
 ## Assignment
 
-Use the `dotter` software program. Obtain the squid (_Loligo forbesii_) p53 and human p53 protein sequences from UniProt. 
+Use the `dotter` software program. Obtain the squid (_Loligo forbesii_) p53 and human p53 protein sequences from UniProt.
 1. Change the substitution matrix from the default (BLOSUM62) to BLOSUM30 (use window size `–W 40`), is there a difference in the plot appearance, explain why?
 2. Change the substitution matrix from default to BLOSUM100, (use window size `–W 40`), is there a difference in the plot appearance, explain why?
 
