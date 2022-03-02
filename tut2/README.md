@@ -1,6 +1,6 @@
 # Tutorial 2
 
-## Setup
+## Setup updated for 2022W
 1. Launch Ubuntu/WSL2. Following the _`README.md`_ files at this github repository: https://github.com/tongalumina/bioc4010 to download the resources.
 3. Start X-server by type `c:\chemistry\xwin\config.xlaunch` in the lower left search box, and click launch the program. An analog clock shall show up on the screen, which indicates the X-server has been successfully launched. There will also be a dialog window titled "Input requested", simply click `Cancel`.
 4. _Alternatively_, you can click the 6th icon from the left on the task bar (a black X sign with a circle) to launch the X-Server. Choose `Next` → `Next`, in the 3rd dialog "Extra settings", check the `Disable access control` item, click `Next` → `Finish`. No clock will be shown. You can check whether the X-server has been launched by checking the background programs running at the lower right corner of the screen: click the ^ sign and see if an icon of an X with circle exist.
