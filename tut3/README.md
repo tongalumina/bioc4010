@@ -1,16 +1,5 @@
 # Tutorial 3: Sequence Alignment and Advanced BLAST
-Make sure you run the `setup.sh` file under `~/bioc4010` folder to fix a bug
-that prevent the launch of `clustalx` The following instructions assume you are
-in the `~/bioc4010/tut3` folder.  The `setup.sh` script also create a symbolic
-link under `tut3` folder to the Windows `Downloads` folder. You shall copy the
-output results from the programs to the `Downloads` folder so that you can
-access them in the Web browser using a command like below:
-```
-cp *.dnd *.ph Downloads
-```
-The above example copies Newick guide tree and weighted tree files to the
-`Downloads` folder. If you need to copy other files, change the `*.dnd *.ph`
-correspondingly.
+Updated for 2022W.
 
 ## PDB Search
 Search in [RCSB PDB](https://www.rcsb.org/) for "lopinavir" and "ritonavir", and find out:
