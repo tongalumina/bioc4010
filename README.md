@@ -47,14 +47,21 @@ To use the Linux VM:
 
 - One final update to install the Guest Additions in the Linux VM — you only need
   to do this one:
+  * Download the [Guest Additions iso](http://download.virtualbox.org/virtualbox/6.1.32/VBoxGuestAdditions_6.1.32.iso) from
+    http://download.virtualbox.org/virtualbox/6.1.32/ and save to `Downloads`
+    folder of the host computer.
+  * Launch the Linux VM
   * Inside the Linux VM, choose `VBox_GAs_6.1.14`, click mouse right button
     and select `eject`, the CD icon should disappear from the desktop
   * Outside the Linux VM in the Oracle VM VirtualBox menu, choose `Devices` →
-    `Optical Drives` → choose `VBoxGuestAdditions.iso`
+    `Optical Drives` → choose the downloaded `VBoxGuestAdditions_6.1.32.iso`
+    file.
   * A new CD icon will show up in the Linux VM and a pop-up dialog asking
     whether you want to run the software on the CD, choose `Run`, and enter
     the password to `Authenticate`.
   * After finish installation, restart the Linux VM.
+  * You should be able to share content between the Linux VM and the host
+    machine.
 
 ### Sanity check
 - Check the Linux VM desktop and make you see an icon labelled `sf_Downloads`
