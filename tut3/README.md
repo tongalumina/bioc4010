@@ -95,14 +95,14 @@ Or you can use the TreeViewX program to view it:
 | file | Content|
 |--- | --- |
 | 3ogq.fa         | FASTA sequence of PDB:3OGQ|
-| 4l1a.fa         | FASTA sequences of PDB: 4L1A, note that the deposited | sequences may contain a mistake that the two polypeptide chains are not identical|
-| ab1-target.fa   | FASTA sequences of all co-crystal structures in complex with | ligand AB1|
+| 4l1a.fa         | FASTA sequences of PDB: 4L1A, note that the deposited , sequences may contain a mistake that the two polypeptide chains are not identical|
+| ab1-target.fa   | FASTA sequences of all co-crystal structures in complex with ligand AB1|
 | allusps.fa      | FASTA sequences of all USPs|
 | lopinavir.pdbhits  |  PDB codes for all Lopinavir co-complexes|
 | lopinavir.pdbinfo  |  Info of all Lopinavir co-complex structurs|
 | nosplitusp.fa  | FASTA sequences of all USPs that do not have insertions|
 | README.md      | This file|
-| rit-target.fa  | FASTA sequences of all co-crystal structures in complex with | ligand RIT|
+| rit-target.fa  | FASTA sequences of all co-crystal structures in complex with ligand RIT|
 | ritonavir.pdbhits  | PDB codes for all ritonavir co-complexes|
 | ritonavir.pdbinfo  | Info of all Ritonavir co-complex structures|
 | usp9xcd.fa      | FASTA sequence of USP9X catalytic domain|
