@@ -73,7 +73,7 @@ The following is a simple procedure to generate an alignment and a weighted
 4. Go back to CLUSTALX, do `Alignment` → `Alignment from Guide Tree`, and save
    the results to a different alignment file. Check if the alignment using the
    guide tree is different from the alignment get from the second step.
-5. Build trees. Under menu item `Trees`, check `Exclude Positions with GAPs` 
+5. Build trees. Under menu item `Trees`, check `Exclude Positions with GAPs`
    and `Correct for Multiple Substitutions`, confirm `Cluster Algorithms` is
    set to be 'NJ'. Go to `Trees` →  `Output format options`, and check `Phylip
    format tree`, `Phylip distance matrix`, and `%identity matrix`.
