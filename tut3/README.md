@@ -107,3 +107,8 @@ Or you can use the TreeViewX program to view it:
 | ritonavir.pdbinfo  | Info of all Ritonavir co-complex structures|
 | usp9xcd.fa      | FASTA sequence of USP9X catalytic domain|
 | rabs.fa | FASTA sequences of all human RAB GTPases |
+
+## Assignment
+
+Make the NJ tree from the rabs.fa, and find out which is the closest paralog
+of RAB37.
