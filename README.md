@@ -1,27 +1,76 @@
 # BIOC-4010 Resources
-This repository includes codes and files for the dry lab sessions of BIOC-4010
-at the University of Windsor. It has been in use since 2021W semester. Due to
-changes in the system used for the dry lab, please refer to the specific
-semester for instructions and omit the irrelevant semesters.
+
+This repository includes codes, data, and files for the dry lab sessions of
+BIOC-4010 at the University of Windsor. It has been in use since the 2021W
+semester. The repository is being constantly updated for the most current
+semester.
 
 ## Update in 2022W
-Due to an unforseen change in the infrastructure at ITS, the PyMOL in the
-Windows 10 VM no longer works. Much time was spent trouble shooting in vain. To
-work around the technical issue, we are switching to a Linux Mint VM at the
-Science Resource Centre in the Essex Hall (EH 182-1).
 
+Due to an upgrade of the UWindsor ITS infrastructure in late 2021, some
+programs, esp. the PyMOL (Native Windows App) in the Windows 10 virtual
+machine(VM) used in previous sessions no longer works. Much time was spent
+trouble-shooting in vain. To work around the technical issue, we switch back
+to a Linux Mint VM that was first built for the 2020W session. The VM is
+installed on all desktops at the Science Resource Centre in the Essex Hall (EH
+182-1). The VM is 8G in size and can also be downloaded as a Course material
+and installed in students' own laptops. The VM was built for Oracle VirtualBox
+verion 6.1, and is known to cause problems for Oracle VirtualBox version 6.3.
 
-New scripts are added to adapt to the new VM. Old scripts are kept for now.
+Scripts and README files are updated to fit the Linux VM. Some old scripts are
+kept for now, and will be eventually removed.
 
-To login the VM,
-- First login the Windows computer using your UWindsor email address and
-  password.
-- Then select the `4010Lab` icon on the desktop, and double click to launch
-  the virtual machine.
+### Before you start the Linux VM
+To use the Linux VM:
+- First login the Windows desktop using your UWindsor email address and
+  your account password.
+- Additional setup for the VM — you only need to do this once:
+  * Setup shared folder, clipboard and file dragging
+    + Start the `Oracle VM Virtual Manager`;
+    + Select the `4010Lab`, click `Settings` on the right panel;
+    + In the pop-up dialog, click on `Shared Folders`, and select the "add new
+      share folder" icon, and select the pull down menu next to "Folder Path";
+![Setup shared folder](./resources/setup-VM-1.png)
+    + It is recommended to select and choose the `Downloads` folder of the host
+    + machine for sharing contents, check the 'Auto-mount' box, and click 'OK'
+      to close the 'Add Share' dialog;
+    + In the `Settings` of `4010Lab`, choose `General` → `Advanced` tab and
+      change `Shared Clipboard` and `Drag'n'Drop` from `Disabled` to
+      `Bidirectional`.
+    + Click 'OK' to close the '4010Lab - Settings'.
+- Select the `4010Lab` icon on the desktop, double click the icon to
+  launch the Linux VM, or you can launch the VM from `Oracle VM Virtual
+  Manager`.
+![Windows Desktop Screenshot](./resources/screen.png)
+  You should be automatically logged into the Linux VM under the `science`
+  account. The instructor or the TA will provide you the password if needed.
 
-![screenshot](./screen.png)
+- One final update to install the Guest Additions in the Linux VM — you only need
+  to do this one:
+  * Inside the Linux VM, choose `VBox_GAs_6.1.14`, click mouse right button
+    and select `eject`, the CD icon should disappear from the desktop
+  * Outside the Linux VM in the Oracle VM VirtualBox menu, choose `Devices` →
+    `Optical Drives` → choose `VBoxGuestAdditions.iso`
+  * A new CD icon will show up in the Linux VM and a pop-up dialog asking
+    whether you want to run the software on the CD, choose `Run`, and enter
+    the password to `Authenticate`.
+  * After finish installation, restart the Linux VM.
 
-  - You should be automatically logged into the Linux system under `science` account.
+### Sanity check
+- Check the Linux VM desktop and make you see an icon labelled `sf_Downloads`
+which is the shared folder `Downloads` of the host machine.
+
+- Open Notepad in the host machine type some text and copy by selecting and
+  press `Ctrl+C`. In the Linux VM, start a Terminal, click mouse right button
+  and choose `Paste` and see whether the text is pasted. Press `Ctrl+C` to
+  break the input in the Terminal.
+- Create a `test.txt` file on the host Windows desktop and see whether you can
+  drag and drop into the Linux VM.
+
+### Navigate in the Linux VM
+- ![Linx menu](./resources/setup-VM-3.png)
+
+### Using the Linux VM for BIOC4010
 
 The github `bioc4010` repository has been cloned into the VM already, so after
 you login the Linux VM, start a terminal and type
@@ -45,38 +94,3 @@ After you login the Linux VM and made the above updates, enter the directories
 corresponding to individual tutorial and follow the README.md file in each
 directory.
 
-## Information for 2021W class (obsolete)
-This repository includes codes and files for the dry lab sessions of BIOC-4010,
-2021W semester at the University of Windsor, Canada. These codes are tailored
-for a Windows 10 Virtual Machine (VM). Keep in mind that once you reboot the
-VM, all the changes you made are lost and you'll have to set them up again.
-
-Files are organized according to the tutorial session, each folder has a
-`README.md` file that provides session-specific instructions when neccessary.
-Please visit the corresponding folder before you start using the data in the
-tutorial session.
-
-The content shall be used in companion with the slides file and the assignment
-provided to the students.
-
-To download the files, start the Ubuntu terminal in the VM, and run the
-following commands that does not start with hash #:
-
-```
-git clone https://github.com/tongalumina/bioc4010.git
-cd bioc4010
-# this following does not seem to be neccessary
-# chmod u+x setup.sh
-./setup.sh
-```
-
-If you have used the above command already in a previous session, and hasn't
-log out the VM, then run the following commands in Ubuntu terminal to update
-the data. You may still want to run the `setup.sh` script to update the system
-in case there are new bug fixes.
-```
-cd ~/bioc4010
-git pull
-# chmod u+x setup.sh
-./setup.sh
-```
