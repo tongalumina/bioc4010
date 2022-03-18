@@ -3,7 +3,17 @@
 This repository includes codes, data, and files for the dry lab sessions of
 BIOC-4010 at the University of Windsor. It has been in use since the 2021W
 semester. The repository is being constantly updated for the most current
-semester.
+semester. Not all materials are uploaded in this repository, some documents
+mentioned will be shared in the class, or through the Learning Management
+System (Blackboard or Teams).
+
+| Tutorial # | Content |
+| --- | --- |
+| [tut1](./tut1/README.md) | Linux basics and Regular Expression |
+| [tut2](./tut2/README.md) | Scoring matrices and dotter plot |
+| [tut3](./tut3/README.md) | Sequence alignment and BLAST |
+| [tut4](./tut4/README.md) | Molecular Graphics with PyMOL |
+| [tut5](./tut5/README.md) | Phylogeny |
 
 ## Update in 2022W
 

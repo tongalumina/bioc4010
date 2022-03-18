@@ -1,11 +1,13 @@
 ﻿# Tutorial 4
-[TOC]
+Update for 2022W semester. This tutorial shall be finished in two one-hour dry
+lab sessions.
 
 ## Resources
+This section includes links to websites that are useful for protein analysis.
 
 ### Seconary Structure Prediction
 - [SOV calculation](http://proteinmodel.org/AS2TS/SOV/sov.html)
-- Servers still up and running
+- Prediction servers still up and running
   - [APSSP](http://crdd.osdd.net/raghava/apssp/)
   - [JPred](http://www.compbio.dundee.ac.uk/jpred/index.html)
   - [Porter](http://distilldeep.ucd.ie/porter/)
@@ -15,7 +17,6 @@
   - [PHD](https://npsa-prabi.ibcp.fr/cgi-bin/npsa_automat.pl?page=/NPSA/npsa_phd.html)
   - [Consensus SS prediciton](https://npsa-prabi.ibcp.fr/cgi-bin/npsa_automat.pl?page=/NPSA/npsa_seccons.html), including GOR 4, PHD
   - [Predictprotein](https://predictprotein.org/)
-
 
 ### Disordered Prediction
 - Servers
@@ -30,10 +31,12 @@
 - [SWISS-Model](https://swissmodel.expasy.org/) building homology model
 - [Rossetta Foldit](https://www.rosettacommons.org/docs/latest/FoldIt)
 
-
 ### AlphaFold
-- [Alpha Fold v.1 source code from DeepMind](https://github.com/deepmind/deepmind-research/tree/master/alphafold_casp13)
-- [Alpha Fold v.2 Democratization Project](https://github.com/lucidrains/alphafold2)
+- [The impact of AlphaFold2 one year on](https://www-nature-com.ledproxy2.uwindsor.ca/articles/s41592-021-01365-3),
+  UWindsor students can request a copy through the [Racer system](https://racer1.scholarsportal.info/)
+- [ColabFold](https://github.com/sokrypton/ColabFold) developed by the Steinegger group.
+- The Jupyter Notebook version of [AlphaFold2 on Google
+  Colab](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/beta/AlphaFold2_advanced.ipynb)
 
 ### Structure alignment
 - [Dali Server](http://ekhidna2.biocenter.helsinki.fi/dali/)
@@ -59,17 +62,11 @@ Calculation of secondary structure using `dssp`.
    cooridnate and FASTA format file from [RCSB](https://www.rcsb.org/structure/2r2o).
 
 ### PyMOl
-- You can get an educational version from [PyMOL.org](https://PyMOL.org/edu/?q=educational/)
-- Launch of the program:
-  * search `PyMOL` in the Search Box, and choose/click on _Run command_  to
-    invoke the program.
-  * Keep in mind this is a native Windows program, not an app on the Ubuntu
-    subsystem.
-- further instructions to be updated.
-- Save output:
-  * in the PyMOL `File` → `Export Image As ...` menu items save the image as
-    PNG, in the pop-up dialog, save the file to a folder different from the
-    default, which is `C:\Windows\System32`. You can choose `This PC` →
-    `Downloads` and e-mail it or save it to the `Z:\` drive, which is supposed
-    to be your host computer if you are using the `VMWare Client` software to
-    connect to the VM.
+You can get an educational version from [PyMOL.org](https://PyMOL.org/edu/?q=educational/) and install it on your own
+laptop for Molecular Graphics. For this tutorial, First read the [Molecular
+Graphics using PyMOL instructions](./MolecularGraphicsWithPyMOL.docx) and undertstand the background and the tasks.
+
+- Launch of the program: type `pymol` in the terminal.
+- Get familiar with the PyMOL interface and knows how to manipulate a
+  molecule
+- Follow the instructions above and finish all the tasks.
