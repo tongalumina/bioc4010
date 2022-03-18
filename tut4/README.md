@@ -59,7 +59,8 @@ Calculation of secondary structure using `dssp`.
    1UBQ)
 4. if you want to download and calculate another structure, use a script under
    `tut4` named `getpdb.sh`, e.g. `getpdb.sh 2r2o` will download strucuture
-   cooridnate and FASTA format file from [RCSB](https://www.rcsb.org/structure/2r2o).
+   cooridnate and FASTA format file from [RCSB](https://www.rcsb.org/structure/2r2o), and run `dssp` to calculate
+   secondary structures.
 
 ### PyMOl
 You can get an educational version from [PyMOL.org](https://PyMOL.org/edu/?q=educational/) and install it on your own
@@ -68,5 +69,8 @@ Graphics using PyMOL instructions](./MolecularGraphicsWithPyMOL.docx) and undert
 
 - Launch of the program: type `pymol` in the terminal.
 - Get familiar with the PyMOL interface and knows how to manipulate a
-  molecule
+  molecule.
 - Follow the instructions above and finish all the tasks.
+- Try run `dss` command in PyMOL when a structure is loaded and shown in
+  `cartoon` mode.
+- Finish assignment #12 posted on Blackboard.
