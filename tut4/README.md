@@ -35,8 +35,7 @@ This section includes links to websites that are useful for protein analysis.
 - [The impact of AlphaFold2 one year on](https://www-nature-com.ledproxy2.uwindsor.ca/articles/s41592-021-01365-3),
   UWindsor students can request a copy through the [Racer system](https://racer1.scholarsportal.info/)
 - [ColabFold](https://github.com/sokrypton/ColabFold) developed by the Steinegger group.
-- The Jupyter Notebook version of [AlphaFold2 on Google
-  Colab](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/beta/AlphaFold2_advanced.ipynb)
+- The Jupyter Notebook version of [AlphaFold2 on Google Colab](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/beta/AlphaFold2_advanced.ipynb)
 
 ### Structure alignment
 - [Dali Server](http://ekhidna2.biocenter.helsinki.fi/dali/)
@@ -74,3 +73,10 @@ Graphics using PyMOL instructions](./MolecularGraphicsWithPyMOL.docx) and undert
 - Try run `dss` command in PyMOL when a structure is loaded and shown in
   `cartoon` mode.
 - Finish assignment #12 posted on Blackboard.
+
+### AlphaFold: Assignment #13
+- Read and follow the instructions of the Jupyter Notebook version of [AlphaFold2 on Google Colab](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/beta/AlphaFold2_advanced.ipynb)
+- Predict the structure of the sequence in the `fish.9x.ubl.fa` file, which is
+  the putative ubiquitin-like domain of zebrafish Usp9X protein.
+- Compare with predicted structure with that of [PDB 5VBD](https://www.rcsb.org/structure/5vbd), align the two structures in
+  PyMOL, describe any difference you see and explain why.
