@@ -80,3 +80,8 @@ Graphics using PyMOL instructions](./MolecularGraphicsWithPyMOL.docx) and undert
   the putative ubiquitin-like domain of zebrafish Usp9X protein.
 - Compare with predicted structure with that of [PDB 5VBD](https://www.rcsb.org/structure/5vbd), align the two structures in
   PyMOL, describe any difference you see and explain why.
+
+## Todo
+- Convert the PyMOL guide into markdown format
+- Add instructions for using PyMOL to store a session, and different scenes,
+  exporting figures.
