@@ -1,11 +1,11 @@
 # Tutorial 2
 
-## Setup, Updated for 2022W
-
+## Setup
+If you have downloaded the git repository in tutorial 1, you can skip step 1.
 1. Following the _`README.md`_ files at this github repository:
    https://github.com/tongalumina/bioc4010 to download the resources.
 2. Launch Linux Mint, launch a new terminal, enter the course folder `cd
-   ~/bioc4010`, and update content by running `git pull`
+   ~/bioc4010`, and update content by running `git pull`.
 3. Change to _`tut2`_ folder by running `cd tut2` to carry out the tasks of this session.
 
 ## Learning Objectives
@@ -16,13 +16,11 @@
   * [UniProt database collection](https://www.uniprot.org/database/)
     + [UniProtKB](https://www.uniprot.org/)
   * Find the fasta sequence of a protein of your interest, or use the human
-    [p53 protein sequence in FASTA format](https://www.uniprot.org/uniprot/P04637.fasta)
-
+    [p53 protein sequence in FASTA format in UniProt](https://www.uniprot.org/uniprot/P04637.fasta)
 2. Practise the use of sliding windows in calculating property of the
    sequence, try Hphob. /Kyte & Doolittle.
   * [ProtScale](https://web.expasy.org/protscale/)
-
-3. Practise the use of `dotter` program on Linux:
+3. Practise the use of the `dotter` program on Linux:
   * Compare the sequences of `f12.fa` and `tpa.fa`, what do you observe?
     * change the default scoring matrix to BLOSUM30 and BLOSUM80, what do you
       observe? *Hint:* use `dotter -h` to find out how to specify different
@@ -41,5 +39,5 @@
 
 Use the `dotter` software program. Obtain the squid (_Loligo forbesii_) p53 and human p53 protein sequences from UniProt.
 1. Change the substitution matrix from the default (BLOSUM62) to BLOSUM30 (use window size `–W 40`), is there a difference in the plot appearance, explain why?
-2. Change the substitution matrix from default to BLOSUM100, (use window size `–W 40`), is there a difference in the plot appearance, explain why?
+2. Change the substitution matrix from default to BLOSUM80, (use window size `–W 40`), is there a difference in the plot appearance, explain why?
 
