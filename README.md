@@ -1,36 +1,32 @@
-# BIOC-4010 Resources
+# BIOC-4010 Dry-Lab Resources
 
 This repository includes codes, data, and files for the dry lab sessions of
 BIOC-4010 at the University of Windsor. It has been in use since the 2021W
 semester. The repository is being constantly updated for the most current
 semester. Not all materials are uploaded in this repository, some documents
 mentioned will be shared in the class, or through the Learning Management
-System (Blackboard or Teams).
+System (Brightspace).
+
+This course is offered to Students from Biology or Biochemistry background with
+minimal experience in computer science.
+
+If you are interested, you can take a look at my [journey](./History.md) of choosing the
+Bioinformatics dry lab platform.
+
+Currently it contains five dry-lab sessions. The plan is to
+1. provide more details on the instructions;
+2. expand on the sessions.
 
 | Tutorial # | Content |
 | --- | --- |
 | [tut1](./tut1/README.md) | Linux basics and Regular Expression |
-| [tut2](./tut2/README.md) | Scoring matrices and dotter plot |
+| [tut2](./tut2/README.md) | Scoring matrices and dotplot |
 | [tut3](./tut3/README.md) | Sequence alignment and BLAST |
 | [tut4](./tut4/README.md) | Molecular Graphics with PyMOL |
 | [tut5](./tut5/README.md) | Phylogeny |
 
-## Update in 2022W
 
-Due to an upgrade of the UWindsor ITS infrastructure in late 2021, some
-programs, esp. the PyMOL (Native Windows App) in the Windows 10 virtual
-machine(VM) used in previous sessions no longer works. Much time was spent
-trouble-shooting in vain. To work around the technical issue, we switch back
-to a Linux Mint VM that was first built for the 2020W session. The VM is
-installed on all desktops at the Science Resource Centre in the Essex Hall (EH
-182-1). The VM is 8G in size and can also be downloaded as a Course material
-and installed in students' own laptops. The VM was built for Oracle VirtualBox
-verion 6.1, and is known to cause problems for Oracle VirtualBox version 6.3.
-
-Scripts and README files are updated to fit the Linux VM. Some old scripts are
-kept for now, and will be eventually removed.
-
-### Before you start the Linux VM
+## Before you start the Linux VM
 To use the Linux VM:
 - First login the Windows desktop using your UWindsor email address and
   your account password.
@@ -95,7 +91,7 @@ you login the Linux VM, start a terminal and type
 cd bioc4010
 git pull
 ```
-to enter the directory to see the files and pull changes made to the
+to enter the `bioc4010` directory to see the files and pull changes made to the
 repository. This will include all the changes made to the sub-directories.
 
 If you have made changes to downloaded files, and have trouble pulling updates
