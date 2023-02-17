@@ -1,7 +1,7 @@
 # BIOC-4010 Dry-Lab Resources
 
 This repository includes codes, data, and files for the dry lab sessions of
-BIOC-4010 at the University of Windsor. It has been in use since the 2021W
+BIOC-4010 at the University of Windsor. It has been in use since the 2022W
 semester. The repository is being constantly updated for the most current
 semester. Not all materials are uploaded in this repository, some documents
 mentioned will be shared in the class, or through the Learning Management
@@ -46,13 +46,15 @@ To use the Linux VM:
     + Click 'OK' to close the '4010Lab - Settings'.
 - Select the `4010Lab` icon on the desktop, double click the icon to
   launch the Linux VM, or you can launch the VM from `Oracle VM Virtual
-  Manager`.
+  Manager`. The actual number of icons in the desktop interface may be
+  slightly different since new software may be added for other courses. But
+  you should see a blue `4010LAB` icon.
 ![Windows Desktop Screenshot](./resources/screen.png)
   You should be automatically logged into the Linux VM under the `science`
-  account. The instructor or the TA will provide you the password if needed.
+  account. The instructor or the GA/TA will provide you the password if needed.
 
 - One final update to install the Guest Additions in the Linux VM — you only need
-  to do this one:
+  to do this once:
   * Download the [Guest Additions iso](http://download.virtualbox.org/virtualbox/6.1.32/VBoxGuestAdditions_6.1.32.iso) from
     http://download.virtualbox.org/virtualbox/6.1.32/ and save to `Downloads`
     folder of the host computer.
@@ -79,6 +81,13 @@ which is the shared folder `Downloads` of the host machine.
   break the input in the Terminal.
 - Create a `test.txt` file on the host Windows desktop and see whether you can
   drag and drop into the Linux VM.
+- Remember that the `sf_Downloads` folder in the Linux VM is the folder you
+  can used to transfer files between the Linux VM and the host Windows
+  computer. You can also use the Firefox browser inside the Linux VM to upload
+  files to OneDrive or Brightspace.
+- To make a screenshot, press the "PrtSc" button and the Linux will ask you
+  where to save the screenshot. I suggest you save it in the `sf_Downloads`
+  folder.
 
 ### Navigate in the Linux VM
 - ![Linx menu](./resources/setup-VM-3.png)
