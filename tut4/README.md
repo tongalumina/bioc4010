@@ -84,6 +84,8 @@ Graphics using PyMOL instructions](./MolecularGraphicsWithPyMOL.docx) and undert
   structures in PyMOL, describe any difference you see and explain why a high
   sequence identity does not yield an identical structure.
 
+**Hint**: When you download the structure of PDB 5VBD, download from the RCSB database and choose the Biological Assembly 2 from the database, which contains two copies of the molecules. The experimentally determined structure is a domain-swapped dimer in the solution.
+
 ## Todo
 - Convert the PyMOL guide into markdown format
 - Add instructions for using PyMOL to store a session, and different scenes,
