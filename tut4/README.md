@@ -57,9 +57,8 @@ Calculation of secondary structure using `dssp`.
 3. run `dssp 1UBQ.pdb` to calculate SS of the ubiquitin structure (PDB code:
    1UBQ)
 4. if you want to download and calculate another structure, use a script under
-   `tut4` named `getpdb.sh`, e.g. `getpdb.sh 2r2o` will download strucuture
-   cooridnate and FASTA format file from [RCSB](https://www.rcsb.org/structure/2r2o), and run `dssp` to calculate
-   secondary structures.
+   `tut4` named `getpdb.sh`. To use the script, make sure it is executable by typing `ls -l` in the tut4 folder and check whether it has a permission of `-rwxr--r--`. If there is no "x" (meaning executable) in the permission, type `chmod u+x getpdb.sh` first to make it executable. Then when in the `tut4` folder,  run `./getpdb.sh 2r2o` will download the strucuture
+   cooridnate for pdb item 2R2O, and the FASTA format file from [RCSB](https://www.rcsb.org/structure/2r2o). After downloading the pdb file, you can run `dssp 2R2O.pdb` to calculate the secondary structures of 2R2O.
 
 ### PyMOl
 You can get an educational version from [PyMOL.org](https://PyMOL.org/edu/?q=educational/) and install it on your own
