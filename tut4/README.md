@@ -64,6 +64,8 @@ Calculation of secondary structure using `dssp`.
 You can get an educational version from [PyMOL.org](https://PyMOL.org/edu/?q=educational/) and install it on your own
 laptop for Molecular Graphics. For this tutorial, First read the [Molecular
 Graphics using PyMOL instructions](./MolecularGraphicsWithPyMOL.docx) and undertstand the background and the tasks.
+You have to save the PyMOL instruction file by clicking right-button and save it. And open it using Microsoft Word. Or if you clicked the link, then you should click the "view raw" in the openned page to save the file for viewing in Microsoft Word.
+
 
 - Launch of the program: type `pymol` in the terminal.
 - Get familiar with the PyMOL interface and knows how to manipulate a
