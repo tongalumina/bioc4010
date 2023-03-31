@@ -7,15 +7,21 @@ semester. Not all materials are uploaded in this repository, some documents
 mentioned will be shared in the class, or through the Learning Management
 System (Brightspace).
 
-This course is offered to Students from Biology or Biochemistry background with
-minimal experience in computer science.
+This course is offered to Students from Biology or Biochemistry background
+with minimal experience in computer science.
 
 If you are interested, you can take a look at my [journey](./History.md) of choosing the
 Bioinformatics dry lab platform.
 
+The material is released under Creative Commons [license](./LICENSE). You are
+welcome to adopt it to your course. I need to clean up the folders and codes,
+when I find some time to do it. Please send any comments to
+`ytong_AT_uwindor_DOT_ca`.
+
 Currently it contains five dry-lab sessions. The plan is to
 1. provide more details on the instructions;
 2. expand on the sessions.
+
 
 | Tutorial # | Content |
 | --- | --- |
@@ -23,8 +29,12 @@ Currently it contains five dry-lab sessions. The plan is to
 | [tut2](./tut2/README.md) | Scoring matrices and dotplot |
 | [tut3](./tut3/README.md) | Sequence alignment and BLAST |
 | [tut4](./tut4/README.md) | Molecular Graphics with PyMOL |
-| [tut5](./tut5/README.md) | Phylogeny |
+| [tut5](./tut5/README.md) | Molecular phylogeny |
 
+On March 24, 2023, [GitHub updated its RSA SSH host key](https://github.blog/2023-03-23-we-updated-our-rsa-ssh-host-key/),
+in case you see a warning that REMOTE HOST IDENTIFCATION HAS CHANGED. Update
+local `known_hosts` file accordingly. A new instance of the Linux VM should not
+have an issue.
 
 ## Before you start the Linux VM
 To use the Linux VM:
