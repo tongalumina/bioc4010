@@ -2,7 +2,7 @@
 This tutorial introduces the basics of using the [MEGA](https://megasoftware.net/) (Molecular Evolutionary
 Genetics Analysis) software.
 
-Last updated for the 2022W semester.
+Last updated for the 2023W semester.
 
 ## Launch of the MEGA program
 Before launch the MEGA program, remember to update the `bioc4010` git folder
@@ -57,7 +57,7 @@ working on a new gene or gene product, use the following methods:
 ### Multiple sequences alignment (MSA)
 - Align the USP8 homolog sequences using the `MUSCLE` alignment algorithm.
   Choose "Neighbor Joining" for the Cluster Method. Change GAP extend penalty
-  to 0.03.
+  to -0.03.
 - After the sequences are alignmed, remember to save the session, alignment
   session file has a suffix `.mas`.
 - Inspect the alignment sequences, and check whether there are strange
@@ -73,43 +73,44 @@ working on a new gene or gene product, use the following methods:
 - Close the Alignment Explorer.
 
 ### Models
-- The following is the process to find the model for correcting the observed
-  substitution for the expected substitution, it will take a very long time to
-  calculate (depending on the computing power of the computer) so we'll skip
-  this step (stop and abort if you started the model estimation).
-  - Return to the main window, load the MEGA alignment file with suffix `.meg`
-    if no data is available.
-  - In MODELs, select `Find Best DNA/Protein Models (ML)`
-  - Number of Threads (this is not applicable in the Linux VM)
-  - The model with lowest BIC valude is the best.
-  - In this particular case the best model is JTT+G+I, JTT is in Model/Method,
-    G+I is in Rates and Patterns
+The following is the process to find the model for correcting the observed
+substitution for the expected substitution, it will take a very long time to
+calculate (depending on the computing power of the computer) so we'll skip
+this whole step (stop and abort if you started the model estimation). If you
+run this step in a powerful computer using MEGA, you can finish the following
+steps:
+- Return to the main window, load the MEGA alignment file with suffix `.meg`
+  if no data is available; otherwise use the active dataset already loaded.
+- In MODELs, select `Find Best DNA/Protein Models (ML)`
+- Number of Threads (this is not applicable in the Linux VM), use maximum
+  available number if you installed MEGA natively.
+- The model with lowest BIC valude is the best model.
+- In this particular case the best model is JTT+G+I, JTT is in Model/Method,
+  G+I is in Rates and Patterns.
 
 ### Distance matrix
-- Select: Distance → Compute pairwise distances...
-- Write down which is the most distant species from Homo sapiens
+This step calculates distance matirx of all USP8 homolog sequences among
+different species:
+- Select: `Distance` → `Compute pairwise distances...`
+- Note down which species is the most distant one from Homo sapiens.
 
 ### Phylogeny
+We create a quick NJ molecular phylogentic tree based on the alignment.
 - Select `Construct/Test Neighbor Joining Tree`
-- In the dialog, choose Test of Phylogeny to be "Bootstrap method", and "No.
-  of Boostrap replications" to be "100".
-- Choose "JTT model" as the Substitution model (check what models are
-  available that you are familiar with).
+- In the popup dialog, choose `Test of Phylogeny` to be "Bootstrap method",
+  and `No.  of Boostrap replications` to be "100".
+- Choose "JTT model" as the Substitution Model (check what models are
+  available in the list that you are familiar with).
 - Gaps/Missing Data Treatment → Partial deletion
-- Generates an NJ tree.
+- Generate an NJ tree.
 
 ### Display of the Tree
-- Display the tree in circular mode, and export as an image file (`.png`).
+- Display the tree in circular mode, and export the displayed tree as an image file (`.png`).
 - Remember to save the tree (in `.mts` format)
 
 
 ## Assignment #15
 Generate a phylogenetic tree using the `usp8.fas` data provided. Explain what
-is the meaning of the numbers on the tree.
-
-
-
-
-
-
+is the meaning of the numbers on the tree. Indicate which species is the most
+distant one from Homo sapiens.
 
